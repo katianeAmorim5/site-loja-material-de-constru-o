@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="cadastro.js"></script>
+        
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="menu">
+            
+                <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="produtos.html">Produtos</a></li>    
+                <li><a href="promoção">Promoção</a></li>
+                <li><a href="contato">Fale conosco</a></li>
+           
+        </div>
+
+        <div class="main">
+            <div class="headerTop">
+                <img width="100%" src="https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-formularios_114360-4797.jpg?w=996&t=st=1701909308~exp=1701909908~hmac=3b645feb1a79633385812756a97c6b456a69ec4fc8018df162f55ce92e8d39da"/> 
+            </div>
+    
+            <div class="content">
+                <form action="#" method="post" onsubmit="enviarDados()">
+                    <caption><h1>Escreva-se!</h1></caption>
+                    <table border="1" width="200">
+                        <caption><h2>Dados Pessoais</h2></caption>
+                        <tr>
+                            <td>Nome</td>
+                            <td><input type="text" id="nome" name="nome"></td>
+                        </tr>
+                         <tr>
+                            <td> CPF </td>
+                            <td><input type="number" name=" CPF "></td>
+                         </tr>
+                         <tr>
+                             <td> Idade </td>
+                             <td><input type="number" name="idade"></td>
+                         </tr>
+                         <tr>
+                             <td> Gênero </td>
+                             <td><input type="text" name=" Sexo"></td>
+                        </tr>
+                    </table>
+                    <table border="1" width="200">
+                        <caption><h2>Dados de Contato</h2></caption>
+                        <br>
+                        <tr>
+                            <td>Endereço</td>
+                            <td><input type="text" name="Endereço"></td>
+                        </tr>
+                        <tr>
+                            <td>Cidade</td>
+                            <td><input type="email" name="Cidade"></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                        <td><input type="text" name="Email"></td>
+                        </tr>
+                        <tr>
+                            <td>Telefone</td>
+                        <td><input type="number" name="Telefone"></td>
+                        </tr>
+                        </table>
+                        <tr>
+                        <td colspan="2">
+                     <div class="btn-group" role="group" aria-label="Ações"><br>
+                    <button type="submit">Enviar</button>
+                    <button type="button" onclick="salvarDados()">Salvar</button>
+                     <button type="reset">Limpar</button>
+                     <button type="button" onclick="excluirDados()">Excluir</button>
+                    <button type="button" onclick="alterarDados()">Alterar</button>
+                    </div>
+                    </td>
+                    </tr>
+            </form>
+            </div>
+            <div class="footer">         
+                <h3>Endereço MkT construção</h3>
+                 Rua 12 de agosto s/n<br>
+                 Tiangu-Ce <br>
+                 08836710000 <br>
+                 mkt@construcao.com <br>
+            </div>
+    
+</body>
+</html>
